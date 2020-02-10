@@ -1,136 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="./normalize.css" />
-    <script
-      src="https://kit.fontawesome.com/2719b0957c.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/2719b0957c.js" crossorigin="anonymous"></script>
     <title>Helpdesk</title>
   </head>
+
   <body>
     <div class="header">
       <div class='header-nav'>
         <div class='left'>
           <p>Our website name</p>
         </div>
-        <div class='right'> 
-            <a href="#">Our mission</a>
-            <a href='#'>Contact-Us</a>
-            <a href="#">Donate</a>
+        <div class='right'>
+          <a href="#">Our mission</a>
+          <a href='#'>Contact-Us</a>
+          <a href="#">Donate</a>
         </div>
       </div>
     </div>
-        <div class="header-front-picture">
-          <img src="banner.jpg" alt="header-picture">
-        </div>
+    <div class="header-front-picture">
+      <img src="banner.jpg" alt="header-picture">
+    </div>
 
-      <!-- now i'll work on the content box, you click on any of the titles adn then it takes you to the paragraph talking about it -->
-      <!-- I want it to be a box of icons title description at the bottom, like a bus logo and below it 'how to use Winniepg transit' -->
-      <!-- i'm not too sure about that structure -->
-      <main>
-        <div class="content-box">
-          <div class="winnipeg-transit">
-              <img src="https://upload.wikimedia.org/wikipedia/en/2/20/Winnipeg_Transit_Flying-T.png" alt="winnipeg-transit-logo" width="120px" height="60px" />
-              <a href='#'>
-              <p>How to use Winnipeg Transit</p>
-              </a>
+    <!-- now i'll work on the content box, you click on any of the titles adn then it takes you to the paragraph talking about it -->
+    <!-- I want it to be a box of icons title description at the bottom, like a bus logo and below it 'how to use Winniepg transit' -->
+    <!-- i'm not too sure about that structure -->
+    <main>
+      <ul class="services">
+        <li class="service1">
+          <a class="winnipeg-transit">
+            <img src="https://pbs.twimg.com/profile_images/676015618/Winnipeg_Transit_Round_Blue_Logo_400x400.png"
+              alt="winnipeg-transit-logo" width="170px" ; />
+            <span style="
+            display: block;">How to use Winnipeg Transit</span>
+          </a>
+        </li>
+      </ul>
+
+      <div class="content">
+        <h1 class="contentTitle">How to use Winnipeg Transit</h1>
+        <h3>Easy Transportation = Smartphone</h3>
+        <p class="method">How to install</p>
+        <p class='how-to-install-paragraph'>You need 2 smartphone apps:
+          <ul>
+            <li><strong>Google maps => Finding which bus to take</strong></li>
+            <li><strong> Winnipeg Bus Live => Live Bus Timings</strong></li>
+          </ul>
+          Click on these Links to download them:
+          <ul>
+            <p>For Android phones (Samsung, Huawei, Lg, every phone that is not an iPhone):</p>
+            <li>
+              <p><a
+                  href="https://play.google.com/store/apps/details?id=com.google.android.apps.maps&hl=en" target="_blank">https://play.google.com/store/apps/details?id=com.google.android.apps.maps&hl=en</a>
+              </p>
+            </li>
+            <li>
+              <p><a
+                  href="https://play.google.com/store/apps/details?id=com.soyo.winnipegbuslive&hl=en">https://play.google.com/store/apps/details?id=com.soyo.winnipegbuslive&hl=en</a>
+              </p>
+            </li>
+          </ul>
+
+          <p><u>For Iphone : </u></p>
+          <div>
+            <p>Open the iPhone App Store</p>
+            <img src="ios-app-store-logo.png" alt="ios-app-store-logo">
+            <p>Press on Searh</p>
+            <img src="search-button.png" alt="search-button-icon">
+            <p>Search for Google Maps</p>
+            <p>Press on the Google Maps logo</p>
+            <img
+              src="https://thumbs.dreamstime.com/b/google-maps-apk-icon-vector-design-mobile-app-brand-trademark-logo-118453129.jpg"
+              alt="google-maps-logo" width='300px' height='300px'>
+            <p>You will see the install button appear, press on it and it will get installed</p>
           </div>
-        </div>
-        
-        <div class="content">
-          <h1><u><strong>How to use Winnipeg Transit</strong></u></h1>
-          <span>
-            <h3>Easy Transportation = Smartphone</h3>
-            <h2><u>How To Install</u></h2>
-            <p class='how-to-install-paragraph'>You need 2 smartphone apps: 
-              <ul>
-                <li><strong>Google maps => Finding which bus to take</strong></li>
-                <li><strong> Winnipeg Bus Live => Live Bus Timings</strong></li>
-              </ul>
-              Click on these Links to download them:
-              <ul>
-                <p>For Android phones (Samsung, Huawei, Lg, every phone that is not an iPhone):</p>
-                <li><p><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.maps&hl=en">https://play.google.com/store/apps/details?id=com.google.android.apps.maps&hl=en</a></p></li>
-                <li><p><a href="https://play.google.com/store/apps/details?id=com.soyo.winnipegbuslive&hl=en">https://play.google.com/store/apps/details?id=com.soyo.winnipegbuslive&hl=en</a></p></li>
-              </ul>
 
-              <p><u>For Iphone : </u></p>
-              <div>
-                <p>Open the iPhone App Store</p>
-                <img src="ios-app-store-logo.png" alt="ios-app-store-logo">
-                <p>Press on Searh</p>
-                <img src="search-button.png" alt="search-button-icon">
-                <p>Search for Google Maps</p>
-                <p>Press on the Google Maps logo</p>
-                <img src="https://thumbs.dreamstime.com/b/google-maps-apk-icon-vector-design-mobile-app-brand-trademark-logo-118453129.jpg" alt="google-maps-logo" width='300px' height='300px'>
-                <p>You will see the install button appear, press on it and it will get installed</p>
+          <div class="how-to-use-gmaps">
+            <h2><u>How to use Google Maps</u></h2>
+            <p class="how-to-use-gmaps-paragraph">
+              <p>Let's say I want to go to the University of Winnipeg</p>
+              <p>1 - I open the Google Maps App on my phone</p>
+              <p>Then I press on 'Search Here'</p>
+              <img src="search-here.jpg" alt="search-here-button">
+              <p>Then I type 'U of W' - <u>Spelling does not matter</u></p>
+              <img src="type-location.jpg" alt="typing-location-picture">
+              <p>I press on the first suggestion</p>
+              <p>Then I get this screen</p>
+              <img src="result.jpg" alt="search-result-picture">
+              <p>I press on direction, Note: A location message may show up, just select ok</p>
+              <p>Then I get this </p>
+              <img src="search-result-2.jpg" alt="directions-picture">
+              <p>after pressing in the Direction button, we get the following:</p>
+              <img src="bus19.jpg" alt="choose-bus-img">
+              <p>Then we select the recommended bus route, then we get the following:</p>
+              <img src="result-map.jpg" alt="result-map-image">
+              <p>Note the <u>Bus Name</u>.</p>
+              <p>The blue dot is your location, it gets updated live, so you know how far you are from your destination
+              </p>
+              <p>Also, the following picture represents the next bus stop. So if you want to get off in any stop, you
+                can pull the yellow string before you get to that stop</p>
+              <img src="bus-stop.jpg" alt="bus-stop-image">
+              <p>Google Maps is a very powerful and useful tool, There is much more, but these are the basics that will
+                let you navigate through winnipeg</p>
+            </p>
+          </div>
+
+          <div class="how-to-use-winnipeg-bus-live">
+            <h2><u>How to use Winnipeg Bus Live</u></h2>
+            <p class="how-to-use-gmaps-paragraph">
+              <p>This is what the logo looks like</p>
+              <img
+                src="https://lh3.googleusercontent.com/B_-DxYYhc8zR0IsuIMFQOLX6vPBACXqlwYAScCux_cqvD4QRr3vIofqRjmrxOsvAEw"
+                alt="winnipeg-bus-live-logo">
+              <p>When you open it, here's what you get, note the numbers at the top left of each bus stop </p>
+              <img src="initial-page.jpg" alt="initial-page-image">
+              <p>this is what most bus stops look like</p>
+              <div class="bus-stops-img">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Winnipeg_bus_stop.JPG" alt="bus-stop-img">
+                <img src="https://live.staticflickr.com/5549/13994628640_8afbb00618_b.jpg" alt="bus-stop-img">
               </div>
-              
-              <div class="how-to-use-gmaps">
-                <h2><u>How to use Google Maps</u></h2>
-                <p class="how-to-use-gmaps-paragraph">
-                  <p>Let's say I want to go to the University of Winnipeg</p>
-                  <p>1 - I open the Google Maps App on my phone</p>
-                  <p>Then I press on 'Search Here'</p>
-                  <img src="search-here.jpg" alt="search-here-button">
-                  <p>Then I type 'U of W' - <u>Spelling does not matter</u></p>
-                  <img src="type-location.jpg" alt="typing-location-picture">
-                  <p>I press on the first suggestion</p>
-                  <p>Then I get this screen</p>
-                  <img src="result.jpg" alt="search-result-picture">
-                  <p>I press on direction, Note: A location message may show up, just select ok</p>
-                  <p>Then I get this </p>
-                  <img src="search-result-2.jpg" alt="directions-picture">
-                  <p>after pressing in the Direction button, we get the following:</p>
-                  <img src="bus19.jpg" alt="choose-bus-img">
-                  <p>Then we select the recommended bus route, then we get the following:</p>
-                  <img src="result-map.jpg" alt="result-map-image">
-                  <p>Note the <u>Bus Name</u>.</p>
-                  <p>The blue dot is your location, it gets updated live, so you know how far you are from your destination </p>
-                  <p>Also, the following picture represents the next bus stop. So if you want to get off in any stop, you can pull the yellow string before you get to that stop</p>
-                  <img src="bus-stop.jpg" alt="bus-stop-image">
-                  <p>Google Maps is a very powerful and useful tool, There is much more, but these are the basics that will let you navigate through winnipeg</p>
-                </p>
-              </div>
+              <p>see the numbers 20249 & 10646?</p>
+              <p>those will appear in the app when you open it.</p>
+              <p>If they don't, you can search for them by pressing on the search button</p>
+              <p>Once you open a bus stop, here's what you get</p>
+              <img src="what-it-looks-like.jpg" alt="when-you-open-bus-stop-img">
+              <p>it gives the bus times, you can also save the bus stop for easy access by pressing on the star</p>
+              <p>to access your bus stops, select the white star located on the page when opening the app</p>
+              <img src="saved-stops.jpg" alt="saved-stops-image">
+              <p>Winnipeg Bus Live is also a very powerful and userful tool. There is also a lot more functionality I
+                did not cover, but these instructions cover the basics</p>
 
-              <div class="how-to-use-winnipeg-bus-live">
-                <h2><u>How to use Winnipeg Bus Live</u></h2>
-                <p class="how-to-use-gmaps-paragraph">
-                  <p>This is what the logo looks like</p>
-                  <img src="https://lh3.googleusercontent.com/B_-DxYYhc8zR0IsuIMFQOLX6vPBACXqlwYAScCux_cqvD4QRr3vIofqRjmrxOsvAEw" alt="winnipeg-bus-live-logo">
-                  <p>When you open it, here's what you get, note the numbers at the top left of each bus stop </p>
-                  <img src="initial-page.jpg" alt="initial-page-image">
-                  <p>this is what most bus stops look like</p>
-                  <div class="bus-stops-img">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Winnipeg_bus_stop.JPG" alt="bus-stop-img">
-                    <img src="https://live.staticflickr.com/5549/13994628640_8afbb00618_b.jpg" alt="bus-stop-img">
-                  </div>
-                  <p>see the numbers 20249 & 10646?</p>
-                  <p>those will appear in the app when you open it.</p>
-                  <p>If they don't, you can search for them by pressing on the search button</p>
-                  <p>Once you open a bus stop, here's what you get</p>
-                  <img src="what-it-looks-like.jpg" alt="when-you-open-bus-stop-img">
-                  <p>it gives the bus times, you can also save the bus stop for easy access by pressing on the star</p>
-                  <p>to access your bus stops, select the white star located on the page when opening the app</p>
-                  <img src="saved-stops.jpg" alt="saved-stops-image">
-                  <p>Winnipeg Bus Live is also a very powerful and userful tool. There is also a lot more functionality I did not cover, but these instructions cover the basics</p>
-                  
 
-                  
-                </p>
-
-              </div>
 
             </p>
-          </span>
-        </div>
-      </main>
-      
+
+          </div>
+
+        </p>
+      </div>
+    </main>
+
     </div>
   </body>
+
 </html>
