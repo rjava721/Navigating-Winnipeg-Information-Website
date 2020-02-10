@@ -2,7 +2,7 @@
   font-family: sans-serif;
 }
 img{
-  width: 100%;
+  max-width: 100%;
 }
 main {
   padding-left: 30px;
@@ -71,3 +71,4 @@ li.service1 {
 .header-front-picture img {
   width: 100%;
 }
+
